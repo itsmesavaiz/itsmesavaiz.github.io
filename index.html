@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Savaiz Wajid Portfolio</title>
+<meta name="description" content="Savaiz Wajid: Computer Science lecturer and MS researcher working on sign language recognition with computer vision.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a class="mark" href="#top">SW<span>.</span></a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+    </ul>
+    <a class="btn primary" href="#contact">Contact me</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow mono"><i class="dot"></i>Available now · Peshawar &amp; remote</span>
+      <div class="open" aria-label="Roles I am open to"><span class="open-l">Open to</span><span class="role">CS Lecturer</span><span class="role">AI Research</span><span class="role">AI / Computer Vision Projects</span><span class="role">Digital Marketing Strategy</span></div>
+      <h1><span class="ln"><span>Savaiz</span></span><span class="ln"><span>Wajid</span></span></h1>
+      <p class="lede">I teach computer science, build <b>AI that reads sign language</b>, and lead a remote <b>digital marketing team</b>. One person who can explain the tech, build it, and help it reach people.</p>
+      <div class="cta">
+        <a class="btn primary" href="#research">See my research
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        <a class="btn" href="https://github.com/itsmesavaiz">GitHub</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b data-count="80" data-suffix="+">80+</b><span>students mentored</span></div>
+        <div class="stat"><b data-count="90" data-suffix="%">90%</b><span>student pass rate at GSSC</span></div>
+        <div class="stat"><b data-count="25" data-suffix="%">25%</b><span>engagement growth, Zulqi Store</span></div>
+        <div class="stat"><b>CCNA</b><span>Cisco certified, 2023</span></div>
+      </div>
+    </div>
+
+    <div class="portrait">
+      <div class="arch"><img src="savaiz-photo.webp" alt="Portrait of Savaiz Wajid in an olive jacket" width="640" height="860"></div>
+      <div class="tag"><small>Now building</small>PSL recognition</div>
+      <div class="lm" aria-label="Animated hand landmark model spelling letters">
+        <canvas id="hand" width="368" height="368"></canvas>
+        <div class="lm-row"><span class="mono">21 landmarks · ASL</span><strong id="letter">L</strong></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="ticker" aria-hidden="true">
+  <div class="track">
+    <span>Computer Vision</span><span>Sign Language Recognition</span><span>Teaching BS CS</span><span>CNN</span><span>MediaPipe</span><span>C / C++</span><span>Networking · CCNA</span><span>Digital Marketing</span>
+    <span>Computer Vision</span><span>Sign Language Recognition</span><span>Teaching BS CS</span><span>CNN</span><span>MediaPipe</span><span>C / C++</span><span>Networking · CCNA</span><span>Digital Marketing</span>
+  </div>
+</div>
+
+<main>
+<section class="block" id="about">
+  <div class="wrap">
+    <div class="head reveal"><span class="mono">01 · About</span><h2>Teacher. Builder. <em>Team lead.</em></h2></div>
+    <div class="about reveal">
+      <div>
+        <p>I work across three areas that rarely sit together: teaching computer science, building computer vision AI, and running digital marketing teams.</p>
+        <p>I hold a BS in Computer Science from CUSIT Peshawar and I am now doing my MS there, with a thesis on Pakistan Sign Language recognition. My final-year project read American Sign Language fingerspelling from a phone camera.</p>
+        <p>I have taught BS Computer Science at two colleges in Peshawar. I planned lessons, set and marked exams, and mentored more than 80 students.</p>
+        <p>On the marketing side, I lead a squad at GAOTek Inc., a US technology company, and earlier grew an e-commerce brand on social media. I know how to plan content, manage people and measure results.</p>
+      </div>
+      <dl class="facts">
+        <div><dt>Based in</dt><dd>Peshawar, Pakistan</dd></div>
+        <div><dt>Current study</dt><dd>MS Computer Science, CUSIT</dd></div>
+        <div><dt>Current role</dt><dd>Squad Leader, GAOTek Inc.</dd></div>
+        <div><dt>Research area</dt><dd>Sign language recognition</dd></div>
+        <div><dt>Certification</dt><dd>Cisco CCNA (2023)</dd></div>
+        <div><dt>Languages</dt><dd>English · Urdu · Pashto · Hindko</dd></div>
+      </dl>
+    </div>
+    <div class="pillars reveal">
+      <div class="pillar"><span class="mono">Educator</span><h3>I make hard topics simple.</h3><p>Lectures, labs, exams and one-to-one mentoring for BS Computer Science students. 90% pass rate at Government Superior Science College.</p></div>
+      <div class="pillar"><span class="mono">AI builder</span><h3>I build AI for accessibility.</h3><p>Sign language recognition with CNNs and MediaPipe hand tracking, from an ASL Android app to my current PSL research.</p></div>
+      <div class="pillar"><span class="mono">Marketing lead</span><h3>I grow brands and teams.</h3><p>Social media strategy, content and campaigns. +25% engagement and +15% online sales for Zulqi Store. Now leading interns at GAOTek.</p></div>
+    </div>
+    <div class="gao reveal">
+      <span class="mono" style="color:var(--amber)">Current work · Jun 2026 to now</span>
+      <h3>Digital Marketing Squad Leader at GAOTek Inc.</h3>
+      <p>GAOTek is a technology company in New York. I work remotely and lead a squad of digital marketing interns. My job is to get new people productive fast and keep the squad's work on time and to standard.</p>
+      <div class="gao-grid">
+        <div class="g"><b>01</b><h4>Intern training</h4><p>Teach new interns the company platforms, tools, procedures and marketing tasks.</p></div>
+        <div class="g"><b>02</b><h4>Task assignment</h4><p>Explain each task clearly, give instructions and show how to do it properly.</p></div>
+        <div class="g"><b>03</b><h4>Team management</h4><p>Support squad members so every task is finished by its deadline.</p></div>
+        <div class="g"><b>04</b><h4>Squad meetings</h4><p>Run regular meetings to share progress and updates, and solve problems.</p></div>
+        <div class="g"><b>05</b><h4>Quality review</h4><p>Check interns' work, find mistakes and give feedback to improve it.</p></div>
+        <div class="g"><b>06</b><h4>Coordination</h4><p>Keep communication open, answer questions and keep the workflow smooth.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="research">
+  <div class="wrap">
+    <div class="head reveal"><span class="mono">02 · MS Research</span><h2>Teaching computers <em>Pakistan Sign Language</em>.</h2></div>
+    <div class="research reveal">
+      <span class="status mono"><i class="dot"></i>In progress · MS thesis · 2025 to present</span>
+      <h3>Pakistan Sign Language alphabet recognition with a hybrid CNN + MediaPipe model</h3>
+      <p>Most sign language tools are built for American Sign Language. Deaf people in Pakistan use their own language, with their own Urdu alphabet signs, and very few tools support it. My thesis builds a model that recognises PSL alphabet signs from a normal camera. It combines a convolutional neural network (CNN), which looks at the hand image, with MediaPipe hand landmarks, which track 21 points on the hand. I am training and testing it on the UAlpha40 dataset of Urdu alphabet signs.</p>
+      <div class="pipe">
+        <div class="step"><span class="mono">Step 1 · Done</span><h4>Literature &amp; data</h4><p>Reviewed sign language recognition work and selected the UAlpha40 dataset.</p></div>
+        <div class="step now"><span class="mono">Step 2 · Now</span><h4>Hybrid model</h4><p>Combining CNN image features with MediaPipe hand landmarks.</p></div>
+        <div class="step"><span class="mono">Step 3 · Next</span><h4>Training &amp; testing</h4><p>Measuring accuracy on unseen signers and real camera input.</p></div>
+        <div class="step"><span class="mono">Step 4 · Next</span><h4>Thesis write-up</h4><p>Reporting results and comparing with existing PSL methods.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="projects">
+  <div class="wrap">
+    <div class="head reveal"><span class="mono">03 · Project</span><h2>Sign Flow: <em>fingerspelling</em> to text.</h2></div>
+    <div class="project reveal">
+      <div>
+        <span class="mono meta">BS Final Year Project · CUSIT · Supervisor: Dr. Ikram Ullah</span>
+        <h3>ASL Fingerspelling Recognition App</h3>
+        <p class="sub">An Android app that turns hand signs into text.</p>
+        <p>About 70 million people in the world are deaf, and most hearing people do not know sign language. Sign Flow uses the phone camera to read American Sign Language fingerspelling, one letter at a time, and shows it as text. It also works the other way: a hearing person types or speaks, and the app shows the matching signs.</p>
+        <p>MediaPipe finds 21 joint points on the hand in each camera frame. A CNN model then classifies the hand shape as a letter. There is also a learning mode with an ASL dictionary, practice activities and a learning score.</p>
+        <div class="chips">
+          <span class="chip">Android · Java + XML</span><span class="chip">Python</span><span class="chip">CNN</span><span class="chip">MediaPipe Hands</span><span class="chip">SQLite</span><span class="chip">Real-time recognition</span>
+        </div>
+        <ul class="goals">
+          <li>Recognise fingerspelled letters in real time from a phone camera.</li>
+          <li>Translate letters into text, and text or voice back into signs.</li>
+          <li>Help ASL learners practise and track progress with a score.</li>
+          <li>Give interpreters and teachers a quick support tool.</li>
+        </ul>
+      </div>
+      <div class="flow">
+        <div class="flow-top">
+          <span class="mono">System flow · 3 user paths</span>
+          <div class="lane-btns" role="group" aria-label="Highlight a user path">
+            <button type="button" data-lane="0" aria-pressed="false">Learner</button>
+            <button type="button" data-lane="1" aria-pressed="true">Deaf user</button>
+            <button type="button" data-lane="2" aria-pressed="false">Hearing user</button>
+          </div>
+        </div>
+        <div class="lanes" id="lanes">
+          <div class="lane"><div class="lane-h">ASL Dictionary</div><div class="node">Map sign to symbol</div><div class="node">Practice activities</div><div class="node">Learning score</div></div>
+          <div class="lane"><div class="lane-h">Deaf user</div><div class="node">Show sign to camera</div><div class="node">Map sign to text</div><div class="node">Show text on screen</div></div>
+          <div class="lane"><div class="lane-h">Hearing user</div><div class="node">Type text or record voice</div><div class="node">Map text to sign</div><div class="node">Show signs as output</div></div>
+        </div>
+        <p class="flow-note">Pick a path to watch each step light up. Based on the flow chart in my project proposal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="experience">
+  <div class="wrap">
+    <div class="head reveal"><span class="mono">04 · Experience</span><h2>Classrooms, teams <em>&amp;</em> campaigns.</h2></div>
+    <div class="timeline">
+      <article class="job reveal">
+        <div class="when"><b>JUN 2026 – NOW</b>Remote</div>
+        <div><h3>Digital Marketing Squad Leader</h3><div class="org">GAOTek Inc. · New York, USA</div>
+          <ul><li>Train new interns on company platforms, tools and working procedures.</li><li>Assign tasks, review intern work and give feedback to keep quality high.</li><li>Run squad meetings, track progress and solve blockers so work ships on time.</li></ul></div>
+      </article>
+      <article class="job reveal">
+        <div class="when"><b>SEP 2025 – FEB 2026</b>Peshawar</div>
+        <div><h3>Lecturer in Computer Science</h3><div class="org">Government Superior Science College</div>
+          <ul><li>Taught undergraduate computer science courses, theory and practical.</li><li>Designed lectures, set and evaluated exams.</li><li>Guided students through hard computing concepts and their projects.</li></ul>
+          <span class="kpi">90% pass rate</span></div>
+      </article>
+      <article class="job reveal">
+        <div class="when"><b>NOV 2024 – JUN 2025</b>Peshawar</div>
+        <div><h3>Lecturer in Computer Science</h3><div class="org">Islamia Law College</div>
+          <ul><li>Delivered lectures to BS Computer Science students.</li><li>Prepared lesson plans, assignments and examinations.</li><li>Contributed to departmental programme development.</li></ul>
+          <span class="kpi">80+ students mentored</span></div>
+      </article>
+      <article class="job reveal">
+        <div class="when"><b>JAN 2024 – JUN 2024</b>Remote</div>
+        <div><h3>Social Media Manager</h3><div class="org">Zulqi Store · E-commerce</div>
+          <ul><li>Created and published product content across social platforms.</li><li>Answered customers quickly and ran interactive campaigns.</li><li>Improved posting strategy for better reach.</li></ul>
+          <span class="kpi">+25% engagement</span><span class="kpi">+15% online sales</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="education">
+  <div class="wrap">
+    <div class="head reveal"><span class="mono">05 · Education &amp; Skills</span><h2>Trained in <em>CS</em>, certified in networks.</h2></div>
+    <div class="two reveal">
+      <div class="card"><span class="mono">Feb 2025 – Present</span><h3>MS Computer Science</h3><p>City University of Science and Information Technology (CUSIT), Peshawar. Thesis on Pakistan Sign Language recognition, in progress.</p><div class="big">Ongoing<small>thesis stage</small></div></div>
+      <div class="card"><span class="mono">Sep 2020 – Oct 2024</span><h3>BS Computer Science</h3><p>City University of Science and Information Technology (CUSIT), Peshawar. Final year project: ASL Fingerspelling Recognition App.</p><div class="big">3.12<small>CGPA</small></div></div>
+    </div>
+    <div class="skills reveal">
+      <div class="card skill"><h4><i></i>Programming &amp; AI</h4><div class="chips"><span class="chip">C</span><span class="chip">C++</span><span class="chip">Python</span><span class="chip">Java</span><span class="chip">HTML/CSS</span><span class="chip">SQL</span><span class="chip">CNN</span><span class="chip">MediaPipe</span></div></div>
+      <div class="card skill"><h4><i></i>Teaching</h4><div class="chips"><span class="chip">Lesson planning</span><span class="chip">Exam design</span><span class="chip">Lab sessions</span><span class="chip">Student mentoring</span><span class="chip">Curriculum support</span></div></div>
+      <div class="card skill"><h4><i></i>Networks &amp; more</h4><div class="chips"><span class="chip">CCNA</span><span class="chip">Social media</span><span class="chip">E-commerce</span><span class="chip">Team leading</span><span class="chip">MS Office</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <span class="mono" style="color:var(--amber)">06 · Contact</span>
+    <h2 style="margin-top:16px">Let&#39;s work <span>together.</span></h2>
+    <p>Hiring for a lecturer, research assistant, AI project or digital marketing role? Email me.</p>
+    <div class="links">
+      <span class="email" id="email">savaizwajid@gmail.com</span>
+      <button class="btn primary" id="copy" type="button">Copy email</button>
+      <a class="btn" href="mailto:savaizwajid@gmail.com">Open mail app</a>
+      <a class="btn" href="https://github.com/itsmesavaiz">GitHub · itsmesavaiz</a>
+      <span class="copied" id="copied" aria-live="polite"></span>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap"><span>© 2026 Savaiz Wajid · Peshawar, Pakistan</span><span class="mono">Built with care · Hand model: 21 landmarks</span></div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
